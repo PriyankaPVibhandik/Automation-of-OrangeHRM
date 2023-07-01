@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name = "OrangeHRM Practice">
+<!--	<suite name = "OrangeHRM Open Source HR management" parallel = "methods" thread-count = "2">-->
+	<test name = "OrangeHRM Test Cases">
+		<classes>
+			<class name = "Practice.OrangeHRM_loginTest"></class>
+			<class name = "Practice.OrangeHRM_homeTest"></class>
+			<class name = "Practice.OrangeHRM_PasswordTest"></class>
+			<class name = "Practice.OrangeHRM_LogoTest"></class>
+			<class name = "Practice.OrangeHRM_reruitmentTest"></class>
+		</classes>
+	</test>
+</suite>
